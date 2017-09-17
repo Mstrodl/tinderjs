@@ -24,11 +24,10 @@ function TinderClient() {
    */
   var getRequestHeaders = function() {
     var headers = {
-        'User-Agent'      : 'Tinder Android Version 4.5.5',
-        'os_version'      : '23',
-        'platform'        : 'android',
-        'app-version'     : '854',
-        'Accept-Language' : 'en'
+        'User-Agent'      : 'Tinder/7.5.3 (iPhone; iOS 10.3.2; Scale/2.00)',
+        'platform'        : 'ios',
+        'app_version'     : '6.9.4',
+        'content-type'    : 'application/json',
     };
 
     if (xAuthToken) {
